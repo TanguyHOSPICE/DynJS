@@ -13,6 +13,8 @@
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
   <!-- JS -->
   <script src="script.js"></script>
+  <script src="scriptForm.js"></script>
+  <script src="scriptForm2.js"></script>
 
   <section>
     <article>
@@ -35,6 +37,32 @@
         </p>
       </div>
     </article>
+  </section>
+
+  <section>
+    <div id="content">
+      <form id="form">
+        <label for="comment">Commentaire :</label>
+        <textarea id="comment" name="comment" cols="30"></textarea>
+      </form>
+    </div>
+    <div>
+      Commentaire saisi :
+      <p id="commentValue">Pas de commentaire</p>
+    </div>
+  </section>
+
+  <section>
+    <div id="content2">
+      <form id="form2">
+        <label for="comment2">Commentaire :</label>
+        <textarea id="comment2" name="comment2" class="element2" cols="30"></textarea>
+      </form>
+    </div>
+    <div>
+      Valeur de l'élément modifié :
+      <p id="elementValue">Rien à afficher</p>
+    </div>
   </section>
 </body>
 
